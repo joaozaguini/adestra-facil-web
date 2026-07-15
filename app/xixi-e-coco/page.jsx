@@ -93,7 +93,7 @@ export default function XixiECocoPage() {
           <div className="hero-badge">ADESTRA FÁCIL</div>
           <h1>Cansado de Xixi e Cocô Fora do Lugar?</h1>
 
-          <img src="/capas/b-sico-16-9.webp" alt="Mockup Guia Xixi e Cocô" className="hero-mockup" />
+          <img src="/capas/pagina-1.webp" alt="Mockup Guia Xixi e Cocô" className="hero-mockup" />
           
           <p className="hero-subheadline">Descubra o passo a passo prático e infalível para ensinar o seu cão a acertar o xixi e o cocô em até 14 dias — sem brigas, sem punições e em apenas 15 minutos por dia. Para TODOS os cachorros.</p>
           
@@ -329,7 +329,7 @@ export default function XixiECocoPage() {
             
             {/* Basic Pack */}
             <div className="plan-card">
-              <img src="/capas/basico-1-1.webp" alt="Guia do Xixi e Cocô" className="plan-img-16x9" />
+              <img src="/capas/b-sico-16-9.webp" alt="Guia do Xixi e Cocô" className="plan-img-16x9" />
               <div className="plan-card-body">
                 <div className="plan-name">Guia do Xixi e Cocô</div>
                 <div className="plan-price"><sup>R$</sup>17,90</div>
@@ -348,7 +348,7 @@ export default function XixiECocoPage() {
 
             {/* Ultimate Pack */}
             <div className="plan-card featured">
-              <img src="/capas/completo-1-1.webp" alt="Guia do Adestramento Completo" className="plan-img-16x9" />
+              <img src="/capas/completo-16-9.webp" alt="Guia do Adestramento Completo" className="plan-img-16x9" />
               <div className="plan-card-body">
                 <div className="plan-name">Guia do Adestramento Completo</div>
                 <div className="plan-old-price">Valor Total: R$ 164,00</div>
