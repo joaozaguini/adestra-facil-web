@@ -91,7 +91,7 @@ export default function XixiECocoPage() {
       <section className="hero">
         <div className="container">
           <div className="hero-badge">ADESTRA FÁCIL</div>
-          <h1>Xixi e cocô do seu cão no lugar certo</h1>
+          <h1>Xixi e Cocô do Seu Cão no Lugar Certo</h1>
 
           <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Mockup Guia Xixi e Cocô" className="hero-mockup" style={{backgroundColor: '#e2e8f0', minHeight: '200px', display: 'flex', alignItems: 'center', justifyContent: 'center'}} />
           
