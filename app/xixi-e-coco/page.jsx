@@ -188,7 +188,7 @@ export default function XixiECocoPage() {
           <h2 className="section-title" style={{textAlign: "center", marginBottom: "8px"}}>Sobre Nós</h2>
           <div className="container" style={{maxWidth: "800px", margin: "0 auto", textAlign: "center", color: "var(--text-main)", fontSize: "16px", lineHeight: "1.6"}}>
             <p style={{marginBottom: "24px", padding: "0 20px"}}>
-              O <strong>Adestra Fácil</strong> nasceu com uma única missão: provar que qualquer tutor, independentemente de experiência, consegue ter um cão educado, obediente e higiênico sem precisar recorrer a brigas, gritos ou punições.
+              A Adestra Fácil nasceu da experiência de nossos profissionais que vivem o comportamento canino todos os dias. Reunimos o que funciona de verdade e transformamos em um método simples, que qualquer tutor consegue aplicar em casa, sem gritos, sem punição e sem precisar contratar ninguém.
             </p>
           </div>
           <div className="trainers-carousel">
@@ -200,6 +200,10 @@ export default function XixiECocoPage() {
             <img src="/adestradores/place-logo-onto-t-shirt-202607151939.webp" alt="Adestrador" className="trainer-img" />
             <img src="/adestradores/place-logo-on-t-shirt-202607151939.webp" alt="Adestrador" className="trainer-img" />
             <img src="/adestradores/place-logo-on-woman-s-t-shirt-202607151939.webp" alt="Adestrador" className="trainer-img" />
+          </div>
+          <div style={{display: "flex", justifyContent: "center", alignItems: "center", gap: "8px", marginTop: "16px", padding: "0 20px", color: "var(--gray-700)", fontSize: "0.95rem", fontWeight: "500", textAlign: "center"}}>
+            <svg style={{color: "#10b981", flexShrink: 0}} xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            É prática validada por quem entende do assunto.
           </div>
         </section>
 
