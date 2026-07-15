@@ -193,13 +193,13 @@ export default function XixiECocoPage() {
           </div>
           <div className="trainers-carousel">
             <img src="/adestradores/dog-trainer-with-happy-dog-202607151939.webp" alt="Adestrador" className="trainer-img" />
+            <img src="/adestradores/place-logo-on-woman-s-t-shirt-202607151939.webp" alt="Adestrador" className="trainer-img" />
             <img src="/adestradores/dog-trainer-with-happy-dog-202607151939-2.webp" alt="Adestrador" className="trainer-img" />
             <img src="/adestradores/dog-trainer-with-happy-dog-202607151939-3.webp" alt="Adestrador" className="trainer-img" />
             <img src="/adestradores/dog-trainer-with-puppy-park-202607151939.webp" alt="Adestrador" className="trainer-img" />
             <img src="/adestradores/dog-trainer-with-small-dog-202607151939.webp" alt="Adestrador" className="trainer-img" />
             <img src="/adestradores/place-logo-onto-t-shirt-202607151939.webp" alt="Adestrador" className="trainer-img" />
             <img src="/adestradores/place-logo-on-t-shirt-202607151939.webp" alt="Adestrador" className="trainer-img" />
-            <img src="/adestradores/place-logo-on-woman-s-t-shirt-202607151939.webp" alt="Adestrador" className="trainer-img" />
           </div>
           <div style={{display: "flex", justifyContent: "center", alignItems: "center", gap: "8px", marginTop: "16px", padding: "0 20px", color: "var(--gray-700)", fontSize: "0.95rem", fontWeight: "500", textAlign: "center"}}>
             <svg style={{color: "#10b981", flexShrink: 0}} xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
