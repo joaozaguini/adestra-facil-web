@@ -143,7 +143,7 @@ export default function XixiECocoPage() {
           <div className="feature-card">
             <div className="feature-card-header">
               <div className="feature-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"></path></svg>
               </div>
               <h3>Módulo 1: Fundamentos Anti-Sujeira</h3>
             </div>
@@ -157,7 +157,7 @@ export default function XixiECocoPage() {
           <div className="feature-card">
             <div className="feature-card-header">
               <div className="feature-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
               </div>
               <h3>Módulo 2: O Cronograma de 14 Dias</h3>
             </div>
@@ -171,7 +171,7 @@ export default function XixiECocoPage() {
           <div className="feature-card">
             <div className="feature-card-header">
               <div className="feature-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="4"></circle><line x1="4.93" y1="4.93" x2="9.17" y2="9.17"></line><line x1="14.83" y1="14.83" x2="19.07" y2="19.07"></line><line x1="14.83" y1="9.17" x2="19.07" y2="4.93"></line><line x1="14.83" y1="9.17" x2="18.36" y2="5.64"></line><line x1="4.93" y1="19.07" x2="9.17" y2="14.83"></line></svg>
               </div>
               <h3>Módulo 3: Casos Difíceis e Soluções</h3>
             </div>
@@ -184,15 +184,22 @@ export default function XixiECocoPage() {
         </section>
 
         {/* SOBRE NÓS */}
-        <section className="sobre-nos-section reveal active" style={{padding: "10px 20px 60px 20px"}}>
+        <section className="sobre-nos-section reveal active" style={{padding: "10px 0 60px 0"}}>
           <h2 className="section-title" style={{textAlign: "center", marginBottom: "8px"}}>Sobre Nós</h2>
           <div className="container" style={{maxWidth: "800px", margin: "0 auto", textAlign: "center", color: "var(--text-main)", fontSize: "16px", lineHeight: "1.6"}}>
-            <p style={{marginBottom: "16px"}}>
+            <p style={{marginBottom: "24px", padding: "0 20px"}}>
               O <strong>Adestra Fácil</strong> nasceu com uma única missão: provar que qualquer tutor, independentemente de experiência, consegue ter um cão educado, obediente e higiênico sem precisar recorrer a brigas, gritos ou punições.
             </p>
-            <p>
-              Reunimos especialistas em comportamento canino para traduzir métodos complexos em um passo a passo simples, que cabe na rotina corrida de qualquer família. Nosso objetivo é devolver a paz para a sua casa e fortalecer ainda mais o vínculo de amor entre você e o seu melhor amigo.
-            </p>
+          </div>
+          <div className="trainers-carousel">
+            <img src="/adestradores/dog-trainer-with-happy-dog-202607151939.webp" alt="Adestrador" className="trainer-img" />
+            <img src="/adestradores/dog-trainer-with-happy-dog-202607151939-2.webp" alt="Adestrador" className="trainer-img" />
+            <img src="/adestradores/dog-trainer-with-happy-dog-202607151939-3.webp" alt="Adestrador" className="trainer-img" />
+            <img src="/adestradores/dog-trainer-with-puppy-park-202607151939.webp" alt="Adestrador" className="trainer-img" />
+            <img src="/adestradores/dog-trainer-with-small-dog-202607151939.webp" alt="Adestrador" className="trainer-img" />
+            <img src="/adestradores/place-logo-onto-t-shirt-202607151939.webp" alt="Adestrador" className="trainer-img" />
+            <img src="/adestradores/place-logo-on-t-shirt-202607151939.webp" alt="Adestrador" className="trainer-img" />
+            <img src="/adestradores/place-logo-on-woman-s-t-shirt-202607151939.webp" alt="Adestrador" className="trainer-img" />
           </div>
         </section>
 

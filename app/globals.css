@@ -860,3 +860,25 @@ footer {
 }
 
 
+
+.trainers-carousel {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 0 20px 20px 20px;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.trainers-carousel::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+.trainer-img {
+  flex: 0 0 85%;
+  max-width: 300px;
+  scroll-snap-align: center;
+  border-radius: 12px;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
