@@ -93,7 +93,7 @@ export default function XixiECocoPage() {
           <div className="hero-badge">ADESTRA FÁCIL</div>
           <h1>Xixi e Cocô do Seu Cão no Lugar Certo</h1>
 
-          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Mockup Guia Xixi e Cocô" className="hero-mockup" style={{backgroundColor: '#e2e8f0', minHeight: '200px', display: 'flex', alignItems: 'center', justifyContent: 'center'}} />
+          <img src="/capas/b-sico-16-9.webp" alt="Mockup Guia Xixi e Cocô" className="hero-mockup" />
           
           <p className="hero-subheadline">Descubra o passo a passo prático e infalível para ensinar o seu cão a acertar o xixi e o cocô em até 14 dias — sem brigas, sem punições e em apenas 15 minutos por dia. Para TODOS os cachorros.</p>
           
@@ -266,7 +266,7 @@ export default function XixiECocoPage() {
             <div className="bonus-grid">
               
               <div className="bonus-card">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Bonus 1" className="bonus-img" style={{backgroundColor: '#e2e8f0'}} />
+                <img src="/capas/sil-ncio-e-calma.webp" alt="Bonus 1" className="bonus-img" />
                 <div className="bonus-card-content">
                   <h3>🎁 Bônus #1: Guia Silêncio em Casa (Latidos + Choro)</h3>
                   <p className="bonus-price">Valor: <span>R$ 29,90</span> | Hoje: <strong>GRÁTIS</strong></p>
@@ -278,7 +278,7 @@ export default function XixiECocoPage() {
               </div>
 
               <div className="bonus-card">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Bonus 2" className="bonus-img" style={{backgroundColor: '#e2e8f0'}} />
+                <img src="/capas/passeio-tranquilo.webp" alt="Bonus 2" className="bonus-img" />
                 <div className="bonus-card-content">
                   <h3>🎁 Bônus #2: O Passeio Perfeito (Sem Puxar)</h3>
                   <p className="bonus-price">Valor: <span>R$ 19,90</span> | Hoje: <strong>GRÁTIS</strong></p>
@@ -290,7 +290,7 @@ export default function XixiECocoPage() {
               </div>
 
               <div className="bonus-card">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Bonus 3" className="bonus-img" style={{backgroundColor: '#e2e8f0'}} />
+                <img src="/capas/dicion-rio-canino.webp" alt="Bonus 3" className="bonus-img" />
                 <div className="bonus-card-content">
                   <h3>🎁 Bônus #3: Dicionário Canino de Comunicação</h3>
                   <p className="bonus-price">Valor: <span>R$ 39,90</span> | Hoje: <strong>GRÁTIS</strong></p>
@@ -302,7 +302,7 @@ export default function XixiECocoPage() {
               </div>
 
               <div className="bonus-card">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Bonus 4" className="bonus-img" style={{backgroundColor: '#e2e8f0'}} />
+                <img src="/capas/socializa--o.webp" alt="Bonus 4" className="bonus-img" />
                 <div className="bonus-card-content">
                   <h3>🎁 Bônus #4: Guia de Socialização Perfeita</h3>
                   <p className="bonus-price">Valor: <span>R$ 39,90</span> | Hoje: <strong>GRÁTIS</strong></p>
@@ -329,7 +329,7 @@ export default function XixiECocoPage() {
             
             {/* Basic Pack */}
             <div className="plan-card">
-              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Guia do Xixi e Cocô" className="plan-img-16x9" style={{backgroundColor: '#e2e8f0'}} />
+              <img src="/capas/basico-1-1.webp" alt="Guia do Xixi e Cocô" className="plan-img-16x9" />
               <div className="plan-card-body">
                 <div className="plan-name">Guia do Xixi e Cocô</div>
                 <div className="plan-price"><sup>R$</sup>17,90</div>
@@ -348,7 +348,7 @@ export default function XixiECocoPage() {
 
             {/* Ultimate Pack */}
             <div className="plan-card featured">
-              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Guia do Adestramento Completo" className="plan-img-16x9" style={{backgroundColor: '#e2e8f0'}} />
+              <img src="/capas/completo-1-1.webp" alt="Guia do Adestramento Completo" className="plan-img-16x9" />
               <div className="plan-card-body">
                 <div className="plan-name">Guia do Adestramento Completo</div>
                 <div className="plan-old-price">Valor Total: R$ 164,00</div>
