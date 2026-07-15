@@ -97,7 +97,7 @@ export default function XixiECocoPage() {
           
           <p className="hero-subheadline">Descubra o passo a passo prático e infalível para ensinar o seu cão a acertar o xixi e o cocô em até 14 dias — sem brigas, sem punições e em apenas 15 minutos por dia. Para TODOS os cachorros.</p>
           
-          <a href="#planos" className="hero-cta">QUERO ACESSO IMEDIATO AGORA</a>
+          <a href="#planos" className="hero-cta">QUERO AGORA</a>
           
           <div className="trust-badges">
             <img src="https://img.icons8.com/color/48/000000/mastercard.png" alt="Mastercard" />
@@ -269,7 +269,7 @@ export default function XixiECocoPage() {
                 <img src="/capas/sil-ncio-e-calma.webp" alt="Bonus 1" className="bonus-img" />
                 <div className="bonus-card-content">
                   <h3>🎁 Bônus #1: Guia Silêncio em Casa (Latidos + Choro)</h3>
-                  <p className="bonus-price">Valor: <span>R$ 29,90</span> | Hoje: <strong>GRÁTIS</strong></p>
+                  <p className="bonus-price">Valor: <span>R$ 19,90</span> | Hoje: <strong>GRÁTIS</strong></p>
                   <ul className="bonus-list">
                     <li>Controle latidos excessivos por tédio ou campainha.</li>
                     <li>Como lidar com a ansiedade de separação.</li>
@@ -281,7 +281,7 @@ export default function XixiECocoPage() {
                 <img src="/capas/passeio-tranquilo.webp" alt="Bonus 2" className="bonus-img" />
                 <div className="bonus-card-content">
                   <h3>🎁 Bônus #2: O Passeio Perfeito (Sem Puxar)</h3>
-                  <p className="bonus-price">Valor: <span>R$ 19,90</span> | Hoje: <strong>GRÁTIS</strong></p>
+                  <p className="bonus-price">Valor: <span>R$ 27,90</span> | Hoje: <strong>GRÁTIS</strong></p>
                   <ul className="bonus-list">
                     <li>Acabe com os puxões e a reatividade na coleira.</li>
                     <li>Torne a caminhada prazerosa para você e seu cão.</li>
@@ -293,7 +293,7 @@ export default function XixiECocoPage() {
                 <img src="/capas/dicion-rio-canino.webp" alt="Bonus 3" className="bonus-img" />
                 <div className="bonus-card-content">
                   <h3>🎁 Bônus #3: Dicionário Canino de Comunicação</h3>
-                  <p className="bonus-price">Valor: <span>R$ 39,90</span> | Hoje: <strong>GRÁTIS</strong></p>
+                  <p className="bonus-price">Valor: <span>R$ 34,90</span> | Hoje: <strong>GRÁTIS</strong></p>
                   <ul className="bonus-list">
                     <li>Entenda o que as posturas do seu cão significam.</li>
                     <li>Identifique níveis de estresse e apaziguamento.</li>
@@ -316,7 +316,7 @@ export default function XixiECocoPage() {
             </div>
             
             <div className="bonus-total">
-              VALOR TOTAL DOS BÔNUS: <span>R$ 137,00</span> · TUDO GRÁTIS HOJE
+              VALOR TOTAL DOS BÔNUS: <span>R$ 122,60</span> · TUDO GRÁTIS HOJE
             </div>
           </div>
         </section>
@@ -351,7 +351,7 @@ export default function XixiECocoPage() {
               <img src="/capas/completo-16-9.webp" alt="Guia do Adestramento Completo" className="plan-img-16x9" />
               <div className="plan-card-body">
                 <div className="plan-name">Guia do Adestramento Completo</div>
-                <div className="plan-old-price">Valor Total: R$ 164,00</div>
+                <div className="plan-old-price">Valor Total: R$ 159,90</div>
                 <div className="plan-price"><sup>R$</sup>32,90</div>
                 <p className="plan-installments">Pagamento único</p>
                 <div className="plan-social">Mais de 85% dos tutores escolhem essa opção!</div>
@@ -377,7 +377,7 @@ export default function XixiECocoPage() {
             </div>
             <div style={{display: "flex", alignItems: "center", gap: "8px"}}>
               <svg style={{color: "#10b981"}} xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-              Sem necessidade de equipamentos caros
+              Sem equipamentos caros
             </div>
             <div style={{display: "flex", alignItems: "center", gap: "8px"}}>
               <svg style={{color: "#10b981"}} xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
