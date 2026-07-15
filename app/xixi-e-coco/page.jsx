@@ -95,7 +95,7 @@ export default function XixiECocoPage() {
 
           <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Mockup Guia Xixi e Cocô" className="hero-mockup" style={{backgroundColor: '#e2e8f0', minHeight: '200px', display: 'flex', alignItems: 'center', justifyContent: 'center'}} />
           
-          <p className="hero-subheadline">Descubra o passo a passo prático e infalível para ensinar o seu cão a acertar o xixi e o cocô em até 14 dias — sem brigas, sem punições e em apenas 15 minutos por dia.</p>
+          <p className="hero-subheadline">Descubra o passo a passo prático e infalível para ensinar o seu cão a acertar o xixi e o cocô em até 14 dias — sem brigas, sem punições e em apenas 15 minutos por dia. Para TODOS os cachorros.</p>
           
           <a href="#planos" className="hero-cta">QUERO ACESSO IMEDIATO AGORA</a>
           
@@ -409,6 +409,13 @@ export default function XixiECocoPage() {
               <button className="faq-question" onClick={handleFaqToggle}>O método funciona com cães adultos ou teimosos?</button>
               <div className="faq-answer">
                 <p>Sim. Embora filhotes retenham as orientações muito mais rápido, a indução por reforço positivo atua na reprogramação de hábitos de cães de qualquer idade. O livro detalha técnicas específicas para cães teimosos.</p>
+              </div>
+            </div>
+
+            <div className="faq-item">
+              <button className="faq-question" onClick={handleFaqToggle}>Importa a raça do meu cachorro?</button>
+              <div className="faq-answer">
+                <p>De forma alguma! O método é baseado em psicologia canina universal e funciona para absolutamente todas as raças — desde um pequeno Chihuahua até um imponente Rottweiler, além dos amados cães sem raça definida (vira-latas).</p>
               </div>
             </div>
 
