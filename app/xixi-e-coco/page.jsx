@@ -223,7 +223,7 @@ export default function XixiECocoPage() {
                   <div className="stars">⭐⭐⭐⭐⭐</div>
                   <p className="quote">"Eu já não aguentava mais limpar o tapete da sala. Em apenas 5 dias aplicando a regra do espaço delimitado, a Belinha passou a procurar o tapete higiênico sozinha!"</p>
                   <div className="author-info">
-                    <img src="https://xsgames.co/randomusers/assets/avatars/female/42.jpg" alt="Mariana Silva" className="author-img" />
+                    <img src="https://randomuser.me/api/portraits/women/9.jpg" alt="Mariana Silva" className="author-img" />
                     <div className="author-text">
                       <span className="author-name">Mariana Silva</span>
                       <span className="author-city">Tutora de Shih Tzu</span>
