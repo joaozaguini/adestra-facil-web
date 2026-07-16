@@ -93,7 +93,7 @@ export default function XixiECocoPage() {
           <div className="hero-badge">ADESTRA FÁCIL</div>
           <h1>Cansado de Latidos Excessivos e Choros Sem Fim?</h1>
 
-          <img src="/capas/pagina-1.webp" alt="Mockup Guia Xixi e Cocô" className="hero-mockup" />
+          <img src="/capas/pagina2/hero.webp" alt="Mockup Guia Silêncio e Calma" className="hero-mockup" />
           
           <p className="hero-subheadline">Descubra o passo a passo prático para ensinar o seu cão a ficar calmo e silencioso em qualquer situação — sem brigas, sem punições e em apenas 15 minutos por dia. Para TODOS os cachorros.</p>
           
@@ -117,21 +117,21 @@ export default function XixiECocoPage() {
           <div className="transformation-grid">
             <div className="step-card">
               <div className="step-number">1</div>
-              <div className="step-icon">🧼</div>
-              <h3>Limpeza Correta</h3>
-              <p>Elimine o cheiro residual invisível que funciona como um "ímã" para o cão voltar ao local errado.</p>
+              <div className="step-icon">🧐</div>
+              <h3>Identificar o Gatilho</h3>
+              <p>Descubra exatamente o que faz seu cão latir para agir direto na causa, e não apenas no sintoma.</p>
             </div>
             <div className="step-card">
               <div className="step-number">2</div>
-              <div className="step-icon">🎯</div>
-              <h3>Espaço Controlado</h3>
-              <p>O segredo de restrição temporária que induz o cão a escolher o tapete higiênico naturalmente.</p>
+              <div className="step-icon">🧘‍♂️</div>
+              <h3>Desmame da Atenção</h3>
+              <p>O segredo para curar a ansiedade de separação sem fazer o cachorro sofrer ao ficar sozinho.</p>
             </div>
             <div className="step-card">
               <div className="step-number">3</div>
               <div className="step-icon">🥩</div>
-              <h3>Recompensa Exata</h3>
-              <p>Como usar o petisco no segundo exato do acerto para fixar o comportamento na mente do cão.</p>
+              <h3>Reforço Positivo</h3>
+              <p>Como e quando recompensar o silêncio para que ele prefira ficar calmo do que latir.</p>
             </div>
           </div>
         </section>
@@ -412,7 +412,7 @@ export default function XixiECocoPage() {
             <div className="faq-item">
               <button className="faq-question" onClick={handleFaqToggle}>Como vou receber o acesso aos guias?</button>
               <div className="faq-answer">
-                <p>O envio é 100% imediato e digital. Assim que seu pagamento for processado pela plataforma, você receberá um e-mail contendo os links diretos para baixar todos os PDFs no seu celular, tablet ou computador.</p>
+                <p>O envio é 100% imediato e digital. Assim que seu pagamento for processado pela plataforma, você receberá um e-mail contendo os links diretos para baixar todos os materiais no seu celular, tablet ou computador.</p>
               </div>
             </div>
 
