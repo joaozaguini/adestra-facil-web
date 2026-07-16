@@ -367,7 +367,7 @@ export default function XixiECocoPage() {
                 <p className="plan-installments">Pagamento único</p>
                 <div className="plan-social">Mais de 85% dos tutores escolhem essa opção!</div>
                 <ul className="plan-features">
-                  <li><strong>O Guia Principal "O Fim da Sujeira" - <span style={{color: '#d4af37', fontWeight: 'bold'}}>PREMIUM</span></strong></li>
+                  <li><strong>Guia: O Fim da Sujeira - <span style={{color: '#d4af37', fontWeight: 'bold'}}>PREMIUM</span></strong></li>
                   <li><strong>Guia: Silêncio em Casa</strong></li>
                   <li><strong>Guia: O Passeio Perfeito</strong></li>
                   <li><strong>Dicionário Canino de Comunicação</strong></li>
