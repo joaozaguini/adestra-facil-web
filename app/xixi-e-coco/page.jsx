@@ -188,7 +188,7 @@ export default function XixiECocoPage() {
           <h2 className="section-title" style={{textAlign: "center", marginBottom: "8px"}}>Sobre Nós</h2>
           <div className="container" style={{maxWidth: "800px", margin: "0 auto", textAlign: "center", color: "var(--text-main)", fontSize: "16px", lineHeight: "1.6"}}>
             <p style={{marginBottom: "24px", padding: "0 20px"}}>
-              A Adestra Fácil nasceu da experiência de nossos profissionais que vivem o comportamento canino todos os dias. Reunimos o que funciona de verdade e transformamos em um método simples, que qualquer tutor consegue aplicar em casa, sem gritos, sem punição e sem precisar contratar ninguém.
+              A <span style={{fontWeight: 'bold', color: 'var(--brand-primary, #2563eb)'}}>Adestra Fácil</span> nasceu da experiência de nossos profissionais que vivem o comportamento canino todos os dias. Reunimos o que funciona de verdade e transformamos em um método simples, que qualquer tutor consegue aplicar em casa, sem gritos, sem punição e sem precisar contratar ninguém.
             </p>
           </div>
           <div className="trainers-carousel">
@@ -209,10 +209,10 @@ export default function XixiECocoPage() {
 
         {/* PROVA SOCIAL */}
         <section className="social-proof-section reveal active">
-          <h2 className="section-title" style={{textAlign: "center", marginBottom: "8px"}}>O Que os Nossos Alunos Estão Falando</h2>
+          <h2 className="section-title" style={{textAlign: "center", marginBottom: "8px"}}>Quem Aplica Recomenda</h2>
           <div className="social-proof-stars" style={{textAlign: "center", marginBottom: "30px"}}>
             <span className="stars-icon">★★★★★</span> <span className="rating-text" style={{color: "var(--gray-800)"}}>4.9/5</span>
-            <p style={{color: "var(--gray-600)", marginTop: "4px", fontSize: "14px"}}>Recomendado por 1,200+ tutores de cães</p>
+            <p style={{color: "var(--gray-600)", marginTop: "4px", fontSize: "14px"}}>Recomendado por 2,450+ tutores de cães</p>
           </div>
           <div className="carousel-container">
             <div className="prova-container-wrapper marquee-wrapper" id="reviewWrapper" ref={reviewTrackRef}>
@@ -223,7 +223,7 @@ export default function XixiECocoPage() {
                   <div className="stars">⭐⭐⭐⭐⭐</div>
                   <p className="quote">"Eu já não aguentava mais limpar o tapete da sala. Em apenas 5 dias aplicando a regra do espaço delimitado, a Belinha passou a procurar o tapete higiênico sozinha!"</p>
                   <div className="author-info">
-                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Mariana Silva" className="author-img" style={{backgroundColor: '#e2e8f0'}} />
+                    <img src="https://xsgames.co/randomusers/assets/avatars/female/42.jpg" alt="Mariana Silva" className="author-img" />
                     <div className="author-text">
                       <span className="author-name">Mariana Silva</span>
                       <span className="author-city">Tutora de Shih Tzu</span>
@@ -236,7 +236,7 @@ export default function XixiECocoPage() {
                   <div className="stars">⭐⭐⭐⭐⭐</div>
                   <p className="quote">"Sempre achei que esfregar o focinho e brigar era o certo. Esse guia me mostrou que eu estava criando trauma no Max. Mudei a tática pro reforço positivo e ele aprendeu na mesma semana."</p>
                   <div className="author-info">
-                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Roberto Gomes" className="author-img" style={{backgroundColor: '#e2e8f0'}} />
+                    <img src="https://xsgames.co/randomusers/assets/avatars/male/22.jpg" alt="Roberto Gomes" className="author-img" />
                     <div className="author-text">
                       <span className="author-name">Roberto Gomes</span>
                       <span className="author-city">Tutor de Golden Retriever</span>
@@ -249,7 +249,7 @@ export default function XixiECocoPage() {
                   <div className="stars">⭐⭐⭐⭐⭐</div>
                   <p className="quote">"O melhor investimento que fiz pelo meu cãozinho. A rotina de 14 dias tirou toda a bagunça do nosso apartamento. Recomendo para qualquer dono de filhote!"</p>
                   <div className="author-info">
-                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Clara Souza" className="author-img" style={{backgroundColor: '#e2e8f0'}} />
+                    <img src="https://xsgames.co/randomusers/assets/avatars/female/23.jpg" alt="Clara Souza" className="author-img" />
                     <div className="author-text">
                       <span className="author-name">Clara Souza</span>
                       <span className="author-city">Tutora de Border Collie</span>
