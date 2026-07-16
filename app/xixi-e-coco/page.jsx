@@ -188,7 +188,7 @@ export default function XixiECocoPage() {
           <h2 className="section-title" style={{textAlign: "center", marginBottom: "8px"}}>Sobre Nós</h2>
           <div className="container" style={{maxWidth: "800px", margin: "0 auto", textAlign: "center", color: "var(--text-main)", fontSize: "16px", lineHeight: "1.6"}}>
             <p style={{marginBottom: "24px", padding: "0 20px"}}>
-              A <span style={{fontWeight: 'bold', color: 'var(--brand-primary, #2563eb)'}}>Adestra Fácil</span> nasceu da experiência de nossos profissionais que vivem o comportamento canino todos os dias. Reunimos o que funciona de verdade e transformamos em um método simples, que qualquer tutor consegue aplicar em casa, sem gritos, sem punição e sem precisar contratar ninguém.
+              A <span style={{fontWeight: 'bold', color: 'var(--text-dark, #2E4A73)'}}>Adestra Fácil</span> nasceu da experiência de nossos profissionais que vivem o comportamento canino todos os dias. Reunimos o que funciona de verdade e transformamos em um método simples, que qualquer tutor consegue aplicar em casa, sem gritos, sem punição e sem precisar contratar ninguém.
             </p>
           </div>
           <div className="trainers-carousel">
