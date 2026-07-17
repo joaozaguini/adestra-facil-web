@@ -353,7 +353,7 @@ export default function XixiECocoPage() {
                   <li className="denied">Sem o Dicionário Canino</li>
                   <li className="denied">Sem os Bônus Premium de hoje</li>
                 </ul>
-                <a href="#" className="plan-cta basic" id="btnStarter">QUERO APENAS O BÁSICO</a>
+                <a href="https://pay.cakto.com.br/4jdfwcr_984008" className="plan-cta basic" id="btnStarter">QUERO APENAS O BÁSICO</a>
               </div>
             </div>
 
@@ -374,7 +374,7 @@ export default function XixiECocoPage() {
                   <li><strong>Guia de Socialização Perfeita</strong></li>
                   <li><strong>TODOS os Bônus Premium - <span style={{color: '#16a34a'}}>GRÁTIS</span></strong></li>
                 </ul>
-                <a href="#" className="plan-cta premium">QUERO O PACOTE COMPLETO</a>
+                <a href="https://pay.cakto.com.br/3amyrqg_984058" className="plan-cta premium">QUERO O PACOTE COMPLETO</a>
               </div>
             </div>
 
@@ -472,8 +472,8 @@ export default function XixiECocoPage() {
               <div className="popup-desc" style={{fontSize: "12px", marginTop: "4px"}}>Pagamento único · Acesso Total Inclusivo</div>
             </div>
             
-            <a href="#" className="plan-cta premium" style={{marginBottom: "12px", width: "100%", display: "block"}}>QUERO O ULTIMATE POR APENAS R$ 24,90</a>
-            <a href="#" className="downsell-skip-link" onClick={() => setShowDownsell(false)}>Não, obrigado. Eu quero apenas o plano básico por R$ 17,90.</a>
+            <a href="https://pay.cakto.com.br/fvyzjcf_986793" className="plan-cta premium" style={{marginBottom: "12px", width: "100%", display: "block"}}>QUERO O ULTIMATE POR APENAS R$ 24,90</a>
+            <a href="https://pay.cakto.com.br/4jdfwcr_984008" className="downsell-skip-link">Não, obrigado. Eu quero apenas o plano básico por R$ 17,90.</a>
           </div>
         </div>
       )}
