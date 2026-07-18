@@ -24,6 +24,12 @@ export default function RootLayout({ children }) {
             fbq('track', 'PageView');
           `}
         </Script>
+        <Script
+          src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+          data-utmify-prevent-xcod-sck
+          data-utmify-prevent-subids
+          strategy="afterInteractive"
+        />
       </head>
       <body>
         <noscript>
