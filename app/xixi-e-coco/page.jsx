@@ -109,32 +109,6 @@ export default function XixiECocoPage() {
 
       <div className="main-column">
 
-        {/* SECAO DOR */}
-        <section className="secao-dor-container reveal active">
-          <div className="secao-dor-content">
-            <div className="secao-dor-tarja-wrapper">
-              <div className="secao-dor-tarja">VOCÊ SE IDENTIFICA?</div>
-            </div>
-            <h2 className="secao-dor-titulo">Isso já aconteceu com você?</h2>
-            
-            <div className="secao-dor-blocos">
-              <div className="secao-dor-bloco">
-                <div className="secao-dor-emoji">🐕💦</div>
-                <div className="secao-dor-texto">Já limpou xixi 3x essa semana?</div>
-              </div>
-              <div className="secao-dor-bloco">
-                <div className="secao-dor-emoji">😔</div>
-                <div className="secao-dor-texto">Já gritou e se sentiu mal depois?</div>
-              </div>
-              <div className="secao-dor-bloco">
-                <div className="secao-dor-emoji">🤷</div>
-                <div className="secao-dor-texto">Já pensou em desistir e aceitar "ele é assim mesmo"?</div>
-              </div>
-            </div>
-
-            <p className="secao-dor-virada">Não é falta de amor. É falta do método certo.</p>
-          </div>
-        </section>
 
         {/* SOBRE NÓS */}
         <section className="sobre-nos-section reveal active" style={{padding: "10px 0 60px 0"}}>
