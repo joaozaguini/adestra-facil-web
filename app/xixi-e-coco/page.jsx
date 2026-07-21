@@ -115,7 +115,7 @@ export default function XixiECocoPage() {
           <h2 className="section-title" style={{textAlign: "center", marginBottom: "8px"}}>Sobre Nós</h2>
           <div className="container" style={{maxWidth: "800px", margin: "0 auto", textAlign: "center", color: "var(--text-main)", fontSize: "16px", lineHeight: "1.6"}}>
             <p style={{marginBottom: "24px", padding: "0 20px"}}>
-              A <span style={{fontWeight: 'bold', color: 'var(--text-dark, #2E4A73)'}}>Adestra Fácil</span> nasceu da experiência de profissionais que veem o mesmo problema se repetir todos os dias: cães fazendo xixi e cocô fora do lugar, mesmo com tutores tentando de tudo. Reunimos o que funciona de verdade em um método simples, que qualquer tutor aplica em casa, sem gritos, sem punição e sem precisar contratar ninguém.
+              A <span style={{fontWeight: 'bold', color: 'var(--text-dark, #2E4A73)'}}>Adestra Fácil</span> nasceu da experiência de profissionais que veem cães fazendo xixi e cocô fora do lugar todos os dias. Nós transformamos isso em um método simples que qualquer tutor aplica em casa, sem gritos, sem punição e sem precisar contratar ninguém.
             </p>
           </div>
           <div className="trainers-carousel">
