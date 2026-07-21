@@ -189,7 +189,7 @@ export default function XixiECocoPage() {
                   <div className="stars">⭐⭐⭐⭐⭐</div>
                   <p className="quote">"Sempre achei que esfregar o focinho e brigar era o certo. Esse guia me mostrou que eu estava criando trauma no Max. Mudei a tática pro reforço positivo e ele aprendeu na mesma semana."</p>
                   <div className="author-info">
-                    <img src="https://xsgames.co/randomusers/assets/avatars/male/22.jpg" alt="Roberto Gomes" className="author-img" />
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Roberto Gomes" className="author-img" />
                     <div className="author-text">
                       <span className="author-name">Roberto Gomes</span>
                       <span className="author-city">Tutor de Golden Retriever</span>
@@ -202,7 +202,7 @@ export default function XixiECocoPage() {
                   <div className="stars">⭐⭐⭐⭐⭐</div>
                   <p className="quote">"O melhor investimento que fiz pelo meu cãozinho. A rotina de 14 dias tirou toda a bagunça do nosso apartamento. Recomendo para qualquer dono de filhote!"</p>
                   <div className="author-info">
-                    <img src="https://xsgames.co/randomusers/assets/avatars/female/23.jpg" alt="Clara Souza" className="author-img" />
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Clara Souza" className="author-img" />
                     <div className="author-text">
                       <span className="author-name">Clara Souza</span>
                       <span className="author-city">Tutora de Border Collie</span>
