@@ -109,14 +109,39 @@ export default function XixiECocoPage() {
 
       <div className="main-column">
 
+        {/* SECAO DOR */}
+        <section className="secao-dor-container reveal active">
+          <div className="secao-dor-content">
+            <div className="secao-dor-tarja-wrapper">
+              <div className="secao-dor-tarja">VOCÊ SE IDENTIFICA?</div>
+            </div>
+            <h2 className="secao-dor-titulo">Isso já aconteceu com você?</h2>
+            
+            <div className="secao-dor-blocos">
+              <div className="secao-dor-bloco">
+                <div className="secao-dor-emoji">🐕💦</div>
+                <div className="secao-dor-texto">Já limpou xixi 3x essa semana?</div>
+              </div>
+              <div className="secao-dor-bloco">
+                <div className="secao-dor-emoji">😔</div>
+                <div className="secao-dor-texto">Já gritou e se sentiu mal depois?</div>
+              </div>
+              <div className="secao-dor-bloco">
+                <div className="secao-dor-emoji">🤷</div>
+                <div className="secao-dor-texto">Já pensou em desistir e aceitar "ele é assim mesmo"?</div>
+              </div>
+            </div>
 
+            <p className="secao-dor-virada">Não é falta de amor. É falta do método certo.</p>
+          </div>
+        </section>
 
         {/* SOBRE NÓS */}
         <section className="sobre-nos-section reveal active" style={{padding: "10px 0 60px 0"}}>
           <h2 className="section-title" style={{textAlign: "center", marginBottom: "8px"}}>Sobre Nós</h2>
           <div className="container" style={{maxWidth: "800px", margin: "0 auto", textAlign: "center", color: "var(--text-main)", fontSize: "16px", lineHeight: "1.6"}}>
             <p style={{marginBottom: "24px", padding: "0 20px"}}>
-              A <span style={{fontWeight: 'bold', color: 'var(--text-dark, #2E4A73)'}}>Adestra Fácil</span> nasceu da experiência de nossos profissionais que vivem o comportamento canino todos os dias. Reunimos o que funciona de verdade e transformamos em um método simples, que qualquer tutor consegue aplicar em casa, sem gritos, sem punição e sem precisar contratar ninguém.
+              A <span style={{fontWeight: 'bold', color: 'var(--text-dark, #2E4A73)'}}>Adestra Fácil</span> nasceu da experiência de profissionais que veem o mesmo problema se repetir todos os dias: cães fazendo xixi e cocô fora do lugar, mesmo com tutores tentando de tudo. Reunimos o que funciona de verdade em um método simples, que qualquer tutor aplica em casa, sem gritos, sem punição e sem precisar contratar ninguém.
             </p>
           </div>
           <div className="trainers-carousel">
@@ -271,6 +296,7 @@ export default function XixiECocoPage() {
               <img src="/capas/b-sico-16-9.webp" alt="Guia do Xixi e Cocô" className="plan-img-16x9" />
               <div className="plan-card-body">
                 <div className="plan-name">Guia do Xixi e Cocô</div>
+                <div className="plan-old-price">De R$ 67,00</div>
                 <div className="plan-price"><sup>R$</sup>17,90</div>
                 <p className="plan-installments">Pagamento único</p>
                 <ul className="plan-features">
@@ -290,7 +316,7 @@ export default function XixiECocoPage() {
               <img src="/capas/completo-16-9.webp" alt="Guia do Adestramento Completo" className="plan-img-16x9" />
               <div className="plan-card-body">
                 <div className="plan-name">Guia do Adestramento Completo</div>
-                <div className="plan-old-price">Valor Total: R$ 159,90</div>
+                <div className="plan-old-price">Valor Total: R$ 189,90</div>
                 <div className="plan-price"><sup>R$</sup>32,90</div>
                 <p className="plan-installments">Pagamento único</p>
                 <div className="plan-social">Mais de 85% dos tutores escolhem essa opção!</div>
