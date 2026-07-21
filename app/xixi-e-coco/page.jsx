@@ -176,7 +176,7 @@ export default function XixiECocoPage() {
                   <div className="stars">⭐⭐⭐⭐⭐</div>
                   <p className="quote">"O melhor investimento que fiz pelo meu cãozinho. A rotina de 14 dias tirou toda a bagunça do nosso apartamento. Recomendo para qualquer dono de filhote!"</p>
                   <div className="author-info">
-                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Clara Souza" className="author-img" />
+                    <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Clara Souza" className="author-img" />
                     <div className="author-text">
                       <span className="author-name">Clara Souza</span>
                       <span className="author-city">Tutora de Border Collie</span>
