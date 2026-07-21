@@ -109,79 +109,7 @@ export default function XixiECocoPage() {
 
       <div className="main-column">
 
-        {/* THE TRANSFORMATION (3 PASSOS) */}
-        <section className="transformation-section reveal active">
-          <h2 className="section-title">A Transformação em 3 Passos</h2>
-          <p className="section-subtitle">O método foi desenhado para quem não tem tempo a perder e quer resultados rápidos usando apenas reforço positivo.</p>
-          
-          <div className="transformation-grid">
-            <div className="step-card">
-              <div className="step-number">1</div>
-              <div className="step-icon">🧼</div>
-              <h3>Limpeza Correta</h3>
-              <p>Elimine o cheiro residual invisível que funciona como um "ímã" para o cão voltar ao local errado.</p>
-            </div>
-            <div className="step-card">
-              <div className="step-number">2</div>
-              <div className="step-icon">🎯</div>
-              <h3>Espaço Controlado</h3>
-              <p>O segredo de restrição temporária que induz o cão a escolher o tapete higiênico naturalmente.</p>
-            </div>
-            <div className="step-card">
-              <div className="step-number">3</div>
-              <div className="step-icon">🥩</div>
-              <h3>Recompensa Exata</h3>
-              <p>Como usar o petisco no segundo exato do acerto para fixar o comportamento na mente do cão.</p>
-            </div>
-          </div>
-        </section>
 
-        {/* O QUE VOCÊ VAI RECEBER */}
-        <section className="features-section reveal active">
-          <h2 className="section-title">O Que Tem Dentro do Guia?</h2>
-          
-          <div className="feature-card">
-            <div className="feature-card-header">
-              <div className="feature-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"></path></svg>
-              </div>
-              <h3>Módulo 1: Fundamentos Anti-Sujeira</h3>
-            </div>
-            <ul className="feature-bullets">
-              <li>Por que esfregar o focinho destrói o aprendizado.</li>
-              <li>A psicologia canina da marcação de território.</li>
-              <li>Diferença entre xixi por ansiedade e necessidade.</li>
-            </ul>
-          </div>
-
-          <div className="feature-card">
-            <div className="feature-card-header">
-              <div className="feature-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-              </div>
-              <h3>Módulo 2: O Cronograma de 14 Dias</h3>
-            </div>
-            <ul className="feature-bullets">
-              <li>A rotina passo a passo: acordar, comer e banheiro.</li>
-              <li>Como restringir o espaço de forma inteligente.</li>
-              <li>Guia de transição para liberar a casa inteira.</li>
-            </ul>
-          </div>
-
-          <div className="feature-card">
-            <div className="feature-card-header">
-              <div className="feature-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="4"></circle><line x1="4.93" y1="4.93" x2="9.17" y2="9.17"></line><line x1="14.83" y1="14.83" x2="19.07" y2="19.07"></line><line x1="14.83" y1="9.17" x2="19.07" y2="4.93"></line><line x1="14.83" y1="9.17" x2="18.36" y2="5.64"></line><line x1="4.93" y1="19.07" x2="9.17" y2="14.83"></line></svg>
-              </div>
-              <h3>Módulo 3: Casos Difíceis e Soluções</h3>
-            </div>
-            <ul className="feature-bullets">
-              <li>Adestrando cães adultos teimosos (3+ anos).</li>
-              <li>O que fazer quando ele dorme no tapete higiênico.</li>
-              <li>Receita do limpador enzimático caseiro.</li>
-            </ul>
-          </div>
-        </section>
 
         {/* SOBRE NÓS */}
         <section className="sobre-nos-section reveal active" style={{padding: "10px 0 60px 0"}}>
