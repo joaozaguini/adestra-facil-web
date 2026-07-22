@@ -62,29 +62,6 @@ export default function XixiECocoPage() {
     document.getElementById('planos')?.scrollIntoView({ behavior: 'smooth' });
   };
 
-  // Exit intent popup
-  useEffect(() => {
-    const handleMouseLeave = (e) => {
-      if (e.clientY < 0 && !showDownsell) {
-        setShowDownsell(true);
-      }
-    };
-    document.addEventListener("mouseleave", handleMouseLeave);
-    return () => document.removeEventListener("mouseleave", handleMouseLeave);
-  }, [showDownsell]);
-
-  // Back redirect UTMify mimic
-  useEffect(() => {
-    window.history.pushState({}, '', window.location.href);
-    window.history.pushState({}, '', window.location.href);
-    
-    const handlePopState = () => {
-      setShowDownsell(true);
-    };
-
-    window.addEventListener("popstate", handlePopState);
-    return () => window.removeEventListener("popstate", handlePopState);
-  }, []);
 
   return (
     <>
@@ -287,7 +264,7 @@ export default function XixiECocoPage() {
                   <li className="denied">Sem o Dicionário Canino</li>
                   <li className="denied">Sem os Bônus Premium de hoje</li>
                 </ul>
-                <a href="https://pay.cakto.com.br/4jdfwcr_984008" className="plan-cta basic" id="btnStarter">QUERO APENAS O BÁSICO</a>
+                <a href="#" onClick={(e) => { e.preventDefault(); setShowDownsell(true); }} className="plan-cta basic" id="btnStarter">QUERO APENAS O BÁSICO</a>
               </div>
             </div>
 
