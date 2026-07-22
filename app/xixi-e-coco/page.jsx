@@ -56,6 +56,12 @@ export default function XixiECocoPage() {
     }
   };
 
+  // Smooth scroll for CTA
+  const scrollToPlanos = (e) => {
+    e.preventDefault();
+    document.getElementById('planos')?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   // Exit intent popup
   useEffect(() => {
     const handleMouseLeave = (e) => {
@@ -97,7 +103,7 @@ export default function XixiECocoPage() {
           
           <p className="hero-subheadline">Descubra o passo a passo prático e infalível para ensinar o seu cão a acertar o xixi e o cocô em até 14 dias — sem brigas, sem punições e em apenas 15 minutos por dia. Para TODOS os cachorros.</p>
           
-          <a href="#planos" className="hero-cta">QUERO AGORA</a>
+          <a href="#planos" onClick={scrollToPlanos} className="hero-cta">QUERO AGORA</a>
           
           <div className="trust-badges">
             <img src="https://img.icons8.com/color/48/000000/mastercard.png" alt="Mastercard" />
